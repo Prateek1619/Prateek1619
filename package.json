@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "contentful": "^8.3.0",
+    "material-ui-popup-state": "^1.8.2"
+  }
+}

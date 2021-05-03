@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+    db:
+        image: postgres
+        environment: 
+            POSTGRES_USER: prateek
+            POSTGRES_PASSWORD: prateek@123
+            POSTGRES_DB: localhost
+        ports:
+            - 5432:5432
+        volumes:
+            - pgdata:/var/lib/postgressql/data
+   
+  
